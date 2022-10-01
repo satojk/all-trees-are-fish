@@ -1,0 +1,16 @@
+{
+    "name": "Test",
+    "code": "test",
+    "prompt_prefix": "",
+    "prompt_postfix": "",
+    "prompts": [
+        "The first three natural numbers are one, two, and",
+        "If I am Theresa's son, that means Theresa is my",
+        "I was born and raised in Spain, and so my mother tongue is"
+    ],
+    "answers": [
+        "three",
+        "mother",
+        "Spanish"
+    ]
+}
