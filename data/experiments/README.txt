@@ -3,19 +3,19 @@ Here are brief descriptions of each experiment.
 test: a small experiment with three different prompts meant to simply 
 validate that the experiment pipeline is working correctly.
 
-ns_orig_zeroshot_v1: the 30 candidate syllogisms from the original Nonsense 
-Syllogisms test, where each prompt contains only the candidate syllogism in 
-question, to be judged as good or poor reasoning.
+All other experiments start with "ns", standing for "Nonsense Syllogisms".
 
-ns_orig_fewshot_v1: the 30 candidate syllogisms from the original Nonsense 
-Syllogisms test, where each prompt contains the first two solved examples from 
-the original test instructions, followed by the candidate syllogism in 
-question, to be judged as good or poor reasoning.
+Then they are either orig ("original"), or nonsense, or halfsense. These mean, 
+respectively, that the syllogisms are exactly as in the original test, or 
+substituted for nonsense words preserving the logical structures. or keep the 
+prompted syllogism as in the original, while making the training syllogisms 
+nonsensical as in the nonsense examples.
 
-ns_orig_manyshot_v1: the 30 candidate syllogisms from the original Nonsense 
-Syllogisms test, where each prompt contains all seven solved examples from 
-the original test instructions, followed by the candidate syllogism in 
-question, to be judged as good or poor reasoning.
+Then they are either zeroshot, fewshot, sixshot, or manyshot. These mean, 
+respectively, that with each prompt we provide zero, two, six, or seven 
+training syllogisms.
 
-ns_orig_manyshot_v2: Same as v1 above, but the prompt prefix is slightly longer 
-and explicitly declares the statements are all nonsense.
+Then they are either v1, v2, or v3. These mean, respectively, that with each 
+prompt we make no reference to "nonsense" or "syllogisms", or that we make 
+reference to "nonsense" but not "syllogisms", or that we make reference to 
+"syllogisms" but not "nonsense".

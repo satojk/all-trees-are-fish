@@ -1,0 +1,41 @@
+{
+    "name": "Nonsense Syllogisms Nonsense Manyshot",
+    "code": "ns_nonsense_manyshot_v1",
+    "prompt_prefix": "Sentences can demonstrate either reasoning that is poor, or reasoning that is good. For example, consider the following three sentences:\nAll klumabungas are chaushlaks. All chaushlaks are helupbgams. Therefore all klumabungas are helupbgams.\nThe three sentences above demonstrate reasoning that is good.\nNow, consider the following three sentences:\nAll kliptumbags are shtratchus. All shtratchus are erghus. Therefore all erghus are kliptumbags.\nThe three sentences above demonstrate reasoning that is poor.\nNow, consider the following three sentences:\nSome haugerfs are mlijegs. All mlijegs like duyts. Therefore all haugerfs like duyts.\nThe three sentences above demonstrate reasoning that is poor.\nNow, consider the following three sentences:\nAll ifrews are razbies. All razbies like tropas. Therefore all ifrews like tropas.\nThe three sentences above demonstrate reasoning that is good.\nNow, consider the following three sentences:\nAll umbroks can reit. All loujis are umbroks. Therefore all loujis can reit.\nThe three sentences above demonstrate reasoning that is good.\nNow, consider the following three sentences:\nSome quergs are yuxies. Some yuxies play the huwer. Therefore some quergs play the huwer.\nThe three sentences above demonstrate reasoning that is poor.\nNow, consider the following three sentences:\nNo two vlets look exactly the same. Cozuts and auspers look exactly the same. Therefore cozuts and auspers are not two vlets.\nThe three sentences above demonstrate reasoning that is good.\nNow, consider the following three sentences:\n",
+    "prompt_postfix": "\nThe three sentences above demonstrate reasoning that is",
+    "prompts": [
+      "All yeryx have plicks. All uiops are yeryx. Therefore all uiops have plicks.",
+      "No klumt is a hyrtch. All hyrtchs are trolks. Therefore no klumt is a trolk.",
+      "All pojus have blozers. Some wotchies are pojus. Therefore some wotchies have blozers.",
+      "No gorties are bewos. Some jubbies are gorties. Therefore some jubbies are not bewos.",
+      "No yoghos have vudgies. All yoghos are muplits. Therefore no muplit has vudgies.",
+      "All pojis have qwarts. No blexy has qwarts. Therefore no blexy is a poji.",
+      "No troxas pludge. Some cotchas pludge. Therefore some cotchas are not troxas.",
+      "All heruxes are eilstofs. Some eilstofs are not wumbas. Therefore some heruxes are not wumbas.",
+      "Some zuhies like to harx. All zuhies are numbles. Therefore some numbles like to harx.",
+      "All yuxes are ghaplos. Some yuxes are wrilxes. Therefore some wrilxes are ghaplos.",
+      "Some people who like Plunt do not like Tardge. Everyone who likes Xart likes Plunt. Therefore some people who like Tardge do not like Xart.",
+      "All flugs are gurtchos. Nothing above 5,000 himoes is a flug. Therefore no gurtcho is above 5,000 himoes.",
+      "Some tugles are galotch. Everything which is galotch is a vunt. Therefore some vunts are tugles.",
+      "Some ruxies are plundles. Some plundles yurgle. Therefore some ruxies yurgle.",
+      "All ehrms are glet. This cort is glet. Therefore this cort is an ehrm.",
+      "No one with a rimbly trug can be callert. All tesdas have rimbly trugs. Therefore no tesda can be callert.",
+      "All nuxors are yighies. Some yighies live in zolips. Therefore some nuxors live in zolips.",
+      "No larbs are dlotchy. All zurks are dlotchy. Therefore no zurk is a larb.",
+      "All urjes are chudges. No urje is clurxy. Therefore nothing that is clurxy is a chudge.",
+      "All ghijuxes are nemix. Some ertrans are not nemix. Therefore some ertrans are not ghijuxes.",
+      "All ojits are funtles. No funtle bants. Therefore nothing that bants is an ojit.",
+      "Some trimps are derrux. All chinties are derrux. Therefore some trimps are chinties.",
+      "All funkles are wophies. All wophies have surples and all huckties have a dewop and surples. Therefore all funkles have a dewop.",
+      "No ghimkops are zolits. Some zolits are kekos. Therefore some kekos are not ghimkops.",
+      "Some clunos are durties. All sarts are clunos. Therefore some durties are sarts.",
+      "All ortblies are wurtles. Some wurtles are yerghots. Therefore some yerghots are ortblies.",
+      "Some people in our flort are not caxot. Everyone in our flort is torp. Therefore some torp people are not caxot.",
+      "No one who has furht is a dibble. Some people who have furht drink xerble. Therefore some people who drink xerble are not dibbles.",
+      "Rahrmia has fewer blotchies than Timflo. Timflo has more blotchies than Vewhu. Therefore Vewhu has more blotchies than Rahrmia.",
+      "Some rorghles who were in the Tralimblony used ximblorts for durghy. This rorghle uses ximblorts for durghy. Therefore he must have been in the Tralimblony."
+    ],
+    "answers": [
+        "good", "poor", "good", "good", "poor", "good", "good", "poor", "good", "good", "poor", "poor", "good", "poor", "poor", "good", "poor", "good", "poor", "good", "good", "poor", "poor", "good", "poor", "poor", "good", "good", "poor", "poor"
+    ]
+}
