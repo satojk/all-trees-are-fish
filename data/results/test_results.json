@@ -1,0 +1,17 @@
+{
+    "prompts": [
+        "The first three natural numbers are one, two, and",
+        "If I am Theresa's son, that means Theresa is my",
+        "I was born and raised in Spain, and so my mother tongue is"
+    ],
+    "outputs": [
+        "three",
+        "mother",
+        "Spanish"
+    ],
+    "answers": [
+        "three",
+        "mother",
+        "Spanish"
+    ]
+}

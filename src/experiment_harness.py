@@ -2,8 +2,16 @@ import os
 import json
 import openai
 
+from tqdm import tqdm
+
 def run_experiment(exp_path: str, api_key_path: str) -> dict:
-    api_key = get_api_key(api_key_path)
+    '''
+    Load experiment .json file specified by exp_path, and either return the 
+    saved results from the data/results/ directory, or run the experiment, save 
+    the results in the data/results/directory, and return them.
+    '''
+
+    print(f'Setting up experiment {exp_path}')
     with open(exp_path, 'r') as f:
         experiment = json.load(f)
     results = {
@@ -12,7 +20,15 @@ def run_experiment(exp_path: str, api_key_path: str) -> dict:
         'answers': experiment['answers'],
     }
 
-    for prompt in experiment['prompts']:
+    try:
+        with open(f'data/results/{experiment["code"]}_results.json', 'r') as f:
+            print('Experiment has already been run. Loading results...')
+            return json.load(f)
+    except FileNotFoundError:
+        print('Running experiment...')
+
+    api_key = get_api_key(api_key_path)
+    for prompt in tqdm(experiment['prompts']):
         full_prompt = experiment['prompt_prefix'] + prompt + experiment['prompt_postfix']
         results['prompts'].append(full_prompt)
         output = get_gpt3_output(full_prompt, api_key)
